@@ -18,7 +18,10 @@ For project goals see README.MD.
 - Categorical columns may contain `"unknown"`.
 
 ## Data Cleaning
-- when you get to data cleaning use the SKILL 'SKILLS/data_preprocessing/data_preprocessing.md'
+Improve data preprocessing and cleaning in src/data_preprocessing/data_preprocessing.py
+
+## Feature Engineering
+Improve feature engineering in src/features/build_features.py
 
 ## Modeling constraints
 - Use Python + pandas + scikit-learn only.
