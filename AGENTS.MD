@@ -2,6 +2,7 @@
 
 ## Goal
 Train a baseline churn classifier from `data/usage_churn.csv` and write a small report.
+For project goals see README.MD.
 
 ## Data
 - Target label: `churned` (0/1)
