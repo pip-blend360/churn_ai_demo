@@ -4,6 +4,11 @@
 Train a baseline churn classifier from `data/usage_churn.csv` and write a small report.
 For project goals see README.MD.
 
+## Documentation References
+- For database schema decisions and migration patterns, see `docs/adr/`
+- If you encounter a FooBarError, see `docs/troubleshooting/foobar.md`
+- For a presentation template see 'docs/output/churn_model_results.ppt'
+
 ## Data
 - Target label: `churned` (0/1)
 - Identifier: `user_id` (never a feature)
