@@ -41,12 +41,36 @@ Quality = Relevant Context ÷ Total Context
 
 ---
 
-## Slide 5 — Key Insight
-AI success is NOT prompting skill.
+## Slide 5 — Prompts vs. Context
+## Prompt vs Context
 
-**It’s context control.**
+### Prompt = What you want done
 
-### Three Layers of Context
+Prompts describe the task.
+
+Examples:
+
+* Train a churn model
+* Plot feature importance
+* Clean this dataset
+
+Prompts should change every time you ask for something new.
+
+### Context = What must always be true
+
+Context defines the environment the task happens in.
+
+Examples:
+
+* Target column is `churned`
+* Metric is ROC-AUC
+* Never use `cancellation_date`
+* Missing values encoded as `-1`
+* Use sklearn only
+
+Context should *not* change between prompts.
+
+## Slide 5.5 Three Layers of Context
 
 | Layer         | Question it answers       |
 | ------------- | ------------------------- |
