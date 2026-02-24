@@ -38,6 +38,7 @@ Improve feature engineering in src/features/build_features.py
 
 ## Repo conventions
 - Source code lives in `src/`
+- Use the example in 'examples/' as a starting point
 - Write artifacts to:
   - `reports/metrics.json` and `reports/metrics.md`
   - `models/churn_model.joblib`
