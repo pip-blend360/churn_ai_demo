@@ -173,10 +173,13 @@ Too much context →
 
 ---
 
-## Slide 15 — Live Lesson
+## Slide 15 — Managing Content While Coding
+
 Ask multiple unrelated questions in one session → worse output.
 
 Start fresh session → better output.
+
+The context window is a finite, degrading resource. Every file the agent reads, every command it runs, every back-and-forth exchange consumes tokens. **Performance degrades gradually, then suddenly.**
 
 **Rule: New task = new chat**
 
