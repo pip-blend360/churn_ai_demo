@@ -61,10 +61,6 @@ AI success is NOT prompting skill.
 Myth: AI reads your whole repo.  
 Reality: It reads (most) files *on demand.*
 
-### Always Loaded Context - use AGENTS.md.
-* Most other models automatically read AGENTS.md  -- AGENTS.md is becoming a standard.
-* **Claude** automatically reads CLAUDE.md -- if you are using claude, point CLAUDE.md to AGENTS.md.
-
 Demo prompt:
 > What files have you read so far?
 
@@ -75,10 +71,13 @@ Then:
 
 ---
 
-## Slide 7 — Give the AI Rules
-Create:
+## Slide 7 — Always Loaded Context -- Give the AI Rules
 
-AGENTS.md
+### Always Loaded Context - use AGENTS.md.
+* Most other models automatically read AGENTS.md  -- AGENTS.md is becoming a standard.
+* **Claude** automatically reads CLAUDE.md -- if you are using claude, point CLAUDE.md to AGENTS.md.
+
+Create: AGENTS.md
 
 Add:
 
