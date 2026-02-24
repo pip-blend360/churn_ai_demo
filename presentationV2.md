@@ -105,7 +105,7 @@ Your instructions compete with the model’s built‑in instructions.
 
 ---
 
-## Slide 9 — Scoped Rules by Folder
+## Slide 9 — On Demand Context -- Scoped Rules by Folder
 Different parts of a project need different rules.
 
 Create:
@@ -118,6 +118,8 @@ Example rules:
 - Encode categoricals
 
 Claude automatically loads local rules when editing that folder.
+
+Refer to on demand context from root AGENTS.md.
 
 ---
 
